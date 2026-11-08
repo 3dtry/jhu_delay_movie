@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arterial blood arrival sequence — JHU 3D</title>
+<style>
+  body { margin: 0; background: #0a0a0f; color: #e8e4f0; font-family: "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 960px; margin: 0 auto; padding: 32px 20px 48px; }
+  h1 { font-size: 1.6em; margin: 0 0 6px; font-weight: 600; letter-spacing: 0.01em; }
+  p.sub { color: #9a93ab; margin: 0 0 22px; font-size: 0.95em; }
+  video { width: 100%; border: 1px solid #2a2438; border-radius: 6px; display: block; background: #000; }
+  p.caption { color: #b9b2c9; font-size: 0.9em; line-height: 1.55; margin: 16px 0 0; }
+  p.note { color: #6e6780; font-size: 0.8em; margin: 20px 0 0; border-top: 1px solid #241f30; padding-top: 14px; }
+</style>
+<meta name="ai-disclosure" content="ai-assisted" ai-model="GLM-5.3-Flash" ai-provider="Thaura"><meta name="generator" content="Thaura (GLM-5.3-Flash)"></head>
+<body>
+<main>
+  <h1>Arterial blood arrival sequence</h1>
+  <p class="sub">JHU arterial territories (LVL1, 30 ROI) &mdash; group-average rapidtide delays</p>
+  <video src="jhu_delay_movie_3d.mp4" controls muted playsinline></video>
+  <p class="caption">3D rendering of the JHU arterial territory delay map. Regions are colored by their group-average
+  bolus-arrival delay, from the earliest (MCA territories, purple, around &minus;0.5&nbsp;s) to the latest
+  (deep internal capsule regions, yellow, up to +0.92&nbsp;s). The panel on the right lists the 30 regions in
+  delay order; the bar at the bottom shows the current time marker sliding through the delay range.</p>
+  <p class="note">Preview version with Turkish on-screen labels. Data: JHU ICBM-DTI-81 white-matter labels,
+  group-mean rapidtide delays from the UK Biobank cohort.</p>
+</main>
+</body>
+</html>
